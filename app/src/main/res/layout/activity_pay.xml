@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PayActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/colorPrimaryDark"
+        android:paddingTop="6dp"
+        android:paddingBottom="0dp"
+        android:text="@string/act_pay"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <CheckBox
+        android:id="@+id/chk_card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:text="С банковской карты"
+        android:buttonTint="@color/colorSecondaryDark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.253"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <CheckBox
+        android:id="@+id/chk_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="С мобильного телефона"
+        android:buttonTint="@color/colorSecondaryDark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.281"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chk_card" />
+
+    <CheckBox
+        android:id="@+id/chk_cash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Наличными по адресу"
+        android:buttonTint="@color/colorSecondaryDark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.267"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chk_phone" />
+
+    <EditText
+        android:id="@+id/et_money"
+        android:layout_width="253dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/colorPrimaryLight"
+        android:hint="@string/str_et_money"
+        android:inputType="number"
+        android:paddingStart="12dp"
+        android:paddingEnd="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.392"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chk_cash" />
+
+    <EditText
+        android:id="@+id/et_input"
+        android:layout_width="253dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimaryLight"
+        android:hint="Информация об оплате"
+        android:paddingStart="12dp"
+        android:paddingEnd="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.392"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_money" />
+
+    <Button
+        android:id="@+id/btn_OK_dlv"
+        android:layout_width="126dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="68dp"
+        android:text="@string/str_btn_ok"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_input" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

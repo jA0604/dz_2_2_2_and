@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mm_settings"
+        android:orderInCategory="100"
+        android:title="@string/str_mm_setting"
+        app:showAsAction="never"/>
+
+    <item
+    android:id="@+id/mm_note"
+    android:orderInCategory="200"
+    android:title="@string/str_mm_note"
+    app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/mm_pay"
+        android:orderInCategory="300"
+        android:title="@string/str_mm_pay"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/mm_delivery"
+        android:orderInCategory="400"
+        android:title="@string/str_mm_delivery"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/mm_task"
+        android:orderInCategory="500"
+        android:title="@string/str_mm_task"
+        app:showAsAction="never"/>
+</menu>

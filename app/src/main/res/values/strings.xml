@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">dz_2_2_2_and</string>
+    <string name="name_dz">Приложения заданий</string>
+
+    <string name="str_mm_setting">Settings</string>
+    <string name="str_mm_note">Записная книжка</string>
+    <string name="str_mm_pay">Форма оплаты</string>
+    <string name="str_mm_delivery">Форма доставки</string>
+    <string name="str_mm_task">Сроки задачи</string>
+
+    <!-- Для приложения Записная книжка NoteActivity -->
+    <string name="str_btn">Сохранить</string>
+    <string name="str_et">Ввод данных</string>
+    <string name="str_note_key">note_text</string>
+    <string name="str_note_name">note_text</string>
+
+    <!-- Для приложения Форма оплаты PayActivity-->
+    <string name="act_pay">Форма приема оплаты</string>
+    <string name="str_chk_card">С банковской карты</string>
+    <string name="str_chk_phone">С мобильного телефона</string>
+    <string name="str_chk_cash">Наличными по адресу</string>
+    <string name="str_et_money">Ввод денег</string>
+    <string name="str_et_input">Ввод денег</string>
+    <string name="str_btn_ok">OK</string>
+
+    <!-- Для приложения Форма адреса доставки DeliveryActivity-->
+    <string name="act_delivery">Форма выбора адреса доставки</string>
+    <string name="str_title_countries">Страна:</string>
+    <string name="str_title_cities">Город:</string>
+    <string name="str_title_houses">Дом:</string>
+    <string name="name_country_r">Россия</string>
+    <string name="name_country_u">Украина</string>
+    <string name="name_country_b">Белоруссия</string>
+
+    <string-array name="sa_countries">
+        <item>Россия</item>
+        <item>Украина</item>
+        <item>Белоруссия</item>
+    </string-array>
+    <string-array name="sa_r_cities">
+        <item>Москва</item>
+        <item>Санкт-Петербург</item>
+        <item>Казань</item>
+    </string-array>
+    <string-array name="sa_u_cities">
+        <item>Киев</item>
+        <item>Одесса</item>
+        <item>Харьков</item>
+    </string-array>
+    <string-array name="sa_b_cities">
+        <item>Минск</item>
+        <item>Гомель</item>
+        <item>Торжок</item>
+    </string-array>
+
+    <!-- Для приложения Сроки задачи TaskActivity-->
+    <string name="act_task">Сроки задачи</string>
+    <string name="str_btn_start">Дата-время старта задачи:</string>
+    <string name="str_btn_end">Дата-время окончания задачи:</string>
+
+</resources>
